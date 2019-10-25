@@ -1,4 +1,6 @@
-Workshop Requirements
+# ASP.NET Core Security Workshop
+
+## Workshop Requirements
 
 - PC with .NET Core 3 SDK and Visual Studio 2019/Visual Studio Code installed.
 - NodeJS
