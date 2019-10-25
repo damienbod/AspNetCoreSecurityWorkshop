@@ -38,7 +38,9 @@ Workshop Requirements
 ### Exercise
 	IdentityServer4 secure token service with an ASP.NET Core OpenID Connect Code flow client + PKCE
 	
-## Lunch
+## 12:30 - 14:00
+
+### Lunch
 
 ## 14:00 - 15:30
 
