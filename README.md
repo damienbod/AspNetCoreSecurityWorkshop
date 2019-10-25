@@ -14,12 +14,12 @@ Workshop Requirements
 	- Security requirements
 
 ### ASP.NET Core Framework Security features
-	- Claims, Principals, Identities, Claims based Identity
-	- Cookie Authentication
+	- ASP.NET Core Authentication
+	- ASP.NET Core Authorization
+	- ASP.NET Core Identity
+	- User Secrets
 	- Data Protection
 	- Authorization 
-	- External Authentication Providers
-	- User Secrets
 	- FIDO2
 	
 ### Exercise:
