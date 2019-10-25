@@ -23,7 +23,7 @@ Workshop Requirements
 	- FIDO2
 	
 ### Exercise:
-	- ASP.NET Core Identity MFA
+	ASP.NET Core Identity MFA
 	
 ## 11:00 - 12:30
 	
@@ -36,7 +36,7 @@ Workshop Requirements
 	- OAuth Device Flow
 
 ### Exercise
-	- IdentityServer4 secure token service with an ASP.NET Core OpenID Connect Code flow client + PKCE
+	IdentityServer4 secure token service with an ASP.NET Core OpenID Connect Code flow client + PKCE
 	
 ## Lunch
 
@@ -49,7 +49,7 @@ Workshop Requirements
 	- Public, protected APIs
 
 ### Exercise
-	- Client/API with JWT Bearer token authorization
+	Client/API with JWT Bearer token authorization
 
 ### Authorization policies, claims
 	- Policies
@@ -58,7 +58,7 @@ Workshop Requirements
 	- Custom authorization
 	 
 ### Exercise
-	- Implementing authorization using claims, policies, handlers
+	Implementing authorization using claims, policies, handlers
 	
 ## 16:00 - 17:30
 
