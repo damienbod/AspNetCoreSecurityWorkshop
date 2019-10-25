@@ -21,7 +21,6 @@
 	- ASP.NET Core Identity
 	- User Secrets
 	- Data Protection
-	- Authorization 
 	- FIDO2
 	
 ### Exercise
