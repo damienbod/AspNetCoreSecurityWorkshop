@@ -4,7 +4,7 @@ Workshop Requirements
 - NodeJS
 - Internet WLAN connection
  
-[Installation](https://github.com/damienbod/AspNetCoreSecurityWorkshop/blob/master/Exercises/installation.md) 
+[Tools Installation](https://github.com/damienbod/AspNetCoreSecurityWorkshop/blob/master/Exercises/installation.md) 
 
 ## 9:00 - 10:30
 
@@ -22,7 +22,7 @@ Workshop Requirements
 	- Authorization 
 	- FIDO2
 	
-### Exercise:
+### Exercise
 	ASP.NET Core Identity MFA
 	
 ## 11:00 - 12:30
