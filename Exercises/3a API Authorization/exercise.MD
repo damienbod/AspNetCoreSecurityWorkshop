@@ -91,13 +91,13 @@ public class ValuesController : Controller
 
 ## Step 5
 
-Activate the client in the Razor Page application in the Index page
+Use the secure endpoint in the Razor Page application in the Index page
 
 ```csharp
 public async Task OnGetAsync()
 {
-	var result = await _apiService.GetUnsecureApiDataAsync();
-	//var resultSecure = await _apiService.GetApiDataAsync();
+	//var result = await _apiService.GetUnsecureApiDataAsync();
+	var resultSecure = await _apiService.GetApiDataAsync();
 
 	Console.WriteLine(resultSecure);
 }
