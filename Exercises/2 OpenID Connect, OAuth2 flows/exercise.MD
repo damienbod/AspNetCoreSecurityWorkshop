@@ -7,6 +7,10 @@ Test password: Alice!01
 Test user : bob@bob.ch
 Test password: Bobby!01
 
+## Exercise Goal
+
+The aim of this exerise is to learn how to implement an OpenID Connect Code flow authentication in an ASP.NET Core Razor Page application.
+
 ## Step 1 
 
 Add the required nuget packages
@@ -82,7 +86,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 
 ## Step 3 
 
-Add the Authorize attribute to the protected razor pacges
+Add the Authorize attribute to the protected razor pages, ie  the Index.cshtml.cs file
 
 ```
 [Authorize]
@@ -90,11 +94,9 @@ Add the Authorize attribute to the protected razor pacges
 
 ## Step 4 
 
-Add a logout razor page, signed out razor page
+Add a logout razor page and signed out razor page to the application
 
-Add a logout and a signed out Razor page
-
-Implement the sign out
+Implement the sign out page
 
 ```csharp
 [Authorize]
