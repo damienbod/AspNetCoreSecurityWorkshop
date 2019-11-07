@@ -7,13 +7,17 @@ Test password: Alice!01
 Test user : bob@bob.ch
 Test password: Bobby!01
 
+## Exercise Goal
+
+The aim of this exerise is to learn how to implement ASP.NET Core authorization using an AuthorizationHandler and a Policy.
+
 ## Description
 
-The Razor Page BobsProtected should only be visible for people with bob in the email. WThis will be implemented using a IAuthorizationRequirement and a AuthorizationHandler
+The Razor Page BobsProtected should only be visible for people with bob in the email. This will be implemented using a IAuthorizationRequirement and a AuthorizationHandler
 
 ### Step 1 
 
-Create a new class which implements the IAuthorizationRequirement
+Create a new class which implements the IAuthorizationRequirement in the RazorPageOidcClient project
 
 ```csharp
 using Microsoft.AspNetCore.Authorization;
@@ -55,6 +59,7 @@ namespace RazorPageOidcClient
 ### Step 3
 
 Register the Handler and use the requirement
+
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {
@@ -88,6 +93,18 @@ public class BobsProtectedModel : PageModel
 Hide menu for the bob admin page, if the user is not authorized.
 
 ```csharp
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+```
+and 
+
+```csharp
+ @if ((await AuthorizationService.AuthorizeAsync(User, "IsBobRequirementPolicy")).Succeeded)
+{
+	<li class="nav-item">
+		<a class="nav-link text-dark" asp-area="" asp-page="/BobsProtected">BobsProtected</a>
+	</li>
+}
 
 ```
 
