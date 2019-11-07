@@ -103,9 +103,9 @@ Add the html code which calls and uses the FIDO2 javascript logic for login impl
 </div>
 
 @section Scripts {
-<script src="~/js/helpers.js"></script>
-<script src="~/js/instant.js"></script>
-<script src="~/js/passwordless.login.js"></script>
+	<script src="~/js/helpers.js"></script>
+	<script src="~/js/instant.js"></script>
+	<script src="~/js/passwordless.login.js"></script>
 }
 
 ```
@@ -170,9 +170,9 @@ Add the html code which calls and uses the FIDO2 javascript logic for register i
 </div>
 
 @section Scripts {
-<script src="~/js/helpers.js"></script>
-<script src="~/js/instant.js"></script>
-<script src="~/js/passwordless.register.js"></script>
+	<script src="~/js/helpers.js"></script>
+	<script src="~/js/instant.js"></script>
+	<script src="~/js/passwordless.register.js"></script>
 }
 
 ```
