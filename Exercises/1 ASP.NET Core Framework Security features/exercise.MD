@@ -1,9 +1,6 @@
 
 # Adding FIDO2 passwordless to an ASP.NET Core Identity project
 
-Test user : alice@alice.ch
-Test user : bob@bob.ch
-
 No password is required.
 
 ## Exercise Goal
@@ -105,9 +102,11 @@ Add the html code which calls and uses the FIDO2 javascript logic for login impl
 
 </div>
 
+@section Scripts {
 <script src="~/js/helpers.js"></script>
 <script src="~/js/instant.js"></script>
 <script src="~/js/passwordless.login.js"></script>
+}
 
 ```
 
@@ -170,10 +169,11 @@ Add the html code which calls and uses the FIDO2 javascript logic for register i
     </div>
 </div>
 
+@section Scripts {
 <script src="~/js/helpers.js"></script>
 <script src="~/js/instant.js"></script>
 <script src="~/js/passwordless.register.js"></script>
-
+}
 
 ```
 
@@ -228,6 +228,11 @@ app.UseEndpoints(endpoints =>
 });
 
 ```
+
+
+### Step 8
+
+Run the application in IIS Express, ie start from Visual Studio 2019. Go to Register and add a new email. Then login using this email.
 
 ## NOTE
 
