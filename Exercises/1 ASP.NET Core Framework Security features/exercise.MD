@@ -4,11 +4,18 @@
 Test user : alice@alice.ch
 Test user : bob@bob.ch
 
+No password is required.
+
+## Exercise Goal
+
+The aim of this exerise is to learn how to implement a FIDO2 passwordless authentication with ASP.NET Core and ASP.NET Core Identity.
+
 ## Description
 
 In this exercise, we want to use FIDO2 passwordless to sign in in an ASP.NET Core Identity project.
 
 The OSS project FIDO2 is used to implement to FIDO2 logic. This is already added.
+
 
 ```csharp
 <PackageReference Include="Fido2" Version="1.0.1" />
@@ -34,7 +41,7 @@ protected override void OnModelCreating(ModelBuilder builder)
     base.OnModelCreating(builder);
 }
 ```
-The exercisre is to take the FIDO2 code and use this to implement the Login and Register.
+The exercise is to take the FIDO2 code and use this to implement the Login and Register.
 
 ### Step 1 
 
