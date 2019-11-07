@@ -90,7 +90,7 @@ public class BobsProtectedModel : PageModel
 
 ### Step 5
 
-Hide menu for the bob admin page, if the user is not authorized.
+Hide menu for the bob admin page, if the user is not authorized in the _Layout.cshtml.
 
 ```csharp
 @using Microsoft.AspNetCore.Authorization
