@@ -133,6 +133,6 @@ else
 
 ### Step 8
 
-Run the application in IIS Express. Start both projects in Visual Studio.
+Run the applications in IIS Express. Start both projects in Visual Studio.
 
 
