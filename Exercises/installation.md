@@ -1,6 +1,6 @@
 # Requirement tools 
 
-The following tools are required to run and make changes to the exercises. Please install, if not already installed.
+The following tools are required to run and make changes to the exercises. pPlease install, if not already installed.
 
 ## Visual Studio 2019 or Visual Studio Code
 
