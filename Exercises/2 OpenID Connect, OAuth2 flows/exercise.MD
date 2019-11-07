@@ -13,7 +13,7 @@ The aim of this exerise is to learn how to implement an OpenID Connect Code flow
 
 ## Step 1 
 
-Add the required nuget packages
+Add the required nuget packages to the RazorPageOidcClient project.
 
 ```xml
 <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="3.0.0" />
@@ -94,7 +94,7 @@ Add the Authorize attribute to the protected razor pages, ie  the Index.cshtml.c
 
 ## Step 4 
 
-Add a logout razor page and signed out razor page to the application
+Add a new Logout and SignedOut Razor page to the client project
 
 Implement the sign out page
 
@@ -130,4 +130,9 @@ else
 	</li>
 }
 ```
+
+### Step 8
+
+Run the application in IIS Express. Start both projects in Visual Studio.
+
 
